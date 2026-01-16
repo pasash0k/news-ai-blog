@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автоматизований Новинний Блог</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Автоматизований Новинний Блог з AI-Резюме</h1>
+        <nav>
+            <select id="category">
+                <option value="technology">Технології</option>
+                <option value="business">Бізнес</option>
+                <option value="science">Наука</option>
+                <option value="health">Здоров'я</option>
+            </select>
+            <button id="load-news">Завантажити Новини</button>
+        </nav>
+    </header>
+    <main id="news-container"></main>
+    <div id="summary-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>AI-Резюме</h2>
+            <p id="summary-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
